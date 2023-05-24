@@ -1,0 +1,40 @@
+/*!
+Theme Name: Danny
+Theme URI:
+Author:
+Author URI:
+Description: *
+Version: 1.0.0
+*/
+
+.contact-form__input.wpcf7-not-valid,
+.contact-form__textarea.wpcf7-not-valid {
+  margin-bottom: 0 !important;
+}
+.wpcf7-not-valid-tip {
+  margin-bottom: 20px;
+}
+
+span.yottie-widget-feed-section-pagination-bullet.swiper-pagination-bullet {
+  line-height: 17px;
+  font-size: 16px;
+  height: auto !important;
+  width: auto !important;
+  min-width: 30px;
+  min-height: 30px;
+}
+.footer__powered-by {
+  font-size: 14px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+@media (min-width: 991px) {
+  .footer__powered-by {
+    justify-content: right;
+    font-size: 16px;
+  }
+}
+.footer__inner {
+  flex-wrap: wrap;
+}
